@@ -1,2 +1,3 @@
-# olgo1700_laboration
+# Projektbeskrivning
 
+I det här projektet skapas en webbplats för ett flygbolag.
