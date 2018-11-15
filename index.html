@@ -9,9 +9,132 @@ olgo1700@student.miun.se
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>GO Airlines</title>
+    <title>Welcome to GO Airlines</title>
+    <style>
+      body {
+        text-align: center;
+        width: 960px;
+        background-image: url(img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 960px;
+        padding: 0;
+        margin: 0;
+      }
+      section {
+        font-family: tahoma, helvetica, sans-serif;
+        min-height:100%;
+      }
+      section.welcome {
+        margin: 4em 0;
+      }
+      h1 {
+        text-transform: uppercase;
+        font-size: 3vw;
+        color: rgba(255, 11, 30, 0.7);
+        margin: 0;
+      }
+      .blue {
+        color: rgba(33, 108, 200, 0.7);
+      }
+      .logo {
+        margin-top: 10px;
+        height: 60px;
+      }
+      .icon {
+        height: 30px;
+      }
+      .inline {
+        display: inline;
+      }
+      nav {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      nav ul {
+        margin: 20px 0;
+        padding: 0 9px;
+      }
+      nav li {
+        margin: 20px;
+        padding: 0;
+        display: inline;
+      }
+      nav li:hover a {
+        text-decoration: underline;
+      }
+      nav a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: Arial;
+        color: rgb(25, 87, 160);
+        display: inline-block;
+      }
+      footer {
+        border-top: .5px dotted;
+        border-color: rgb(33, 108, 200);
+        padding: 5px;
+      }
+      footer *{
+        color: rgb(25, 87, 160);
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 350;
+        font-size: 10pt;
+        margin: 0;
+      }
+      address *{
+        display: inline-block;
+        font-weight: bold;
+        padding: 4px;
+      }
+      address a {
+        text-decoration: none;
+      }
+      address p:hover a {
+        text-decoration: underline;
+      }
+    </style>
   </head>
-  <body>
 
+  <body>
+    <header>
+      <figure>
+        <img class="logo" src="img/logo.png" alt="logotype"/>
+      </figure>
+      <nav>
+        <ul>
+          <li><a href="index-book.html">Bookings</a></li>
+          <li><a href="index-planes.html">Our planes</a></li>
+          <li><a href="index-staff.html">Our staff</a></li>
+          <li><a href="index-contact.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="welcome">
+      <h1>Welcome</h1>
+      <h1 class="nextline">to <span class="blue">GO</span></h1>
+      <h1 class="nextline"><span class="blue">Airlines</span></h1>
+      <figure>
+        <a href="index-book.html">
+        <img class="icon" src="img/right.png" alt="go button"/></a>
+      </figure>
+    </section>
+
+    <footer>
+      <address>
+        <p><a href="mailto:info@goairlines.se">✉️ info@goairlines.com</a></p>
+        <p>📱 +46 70 000 0000</p>
+      </address>
+      <p>
+        <a href="https://facebook.com">
+        <img class="icon" src="img/facebook.png" alt="Facebook logo"/></a>
+        <a href="https://instagram.com">
+          <img class="icon" src="img/instagram.png" alt="Instagram logo"/></a>
+      </p>
+      <p>&copy; 2018 GO Airlines All Rights Reserved</p>
+    </footer>
   </body>
 </html>
