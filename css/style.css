@@ -11,7 +11,7 @@ section {
   font-family: tahoma, helvetica, sans-serif;
   min-height:100%;
 }
-section.welcome {
+#section1 {
   margin: 4em 0;
 }
 h1 {
@@ -45,8 +45,12 @@ nav ul {
 }
 nav li {
   margin: 20px;
-  padding: 0;
   display: inline;
+  text-transform: uppercase;
+}
+nav li.current a {
+  color: red;
+  font-weight: bold;
 }
 nav li:hover a {
   text-decoration: underline;
