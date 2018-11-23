@@ -1,0 +1,83 @@
+body {
+  text-align: center;
+  width: 100%;
+  max-width: 960px;
+  background: url(../img/bg.jpg) no-repeat center;
+  background-attachment:fixed;
+  padding: 0;
+  margin: 0 auto;
+}
+section {
+  font-family: tahoma, helvetica, sans-serif;
+  min-height:100%;
+}
+section.welcome {
+  margin: 4em 0;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3vw;
+  color: rgba(255, 11, 30, 0.7);
+  margin: 0;
+}
+.blue {
+  color: rgba(33, 108, 200, 0.7);
+}
+.logo {
+  margin-top: 10px;
+  height: 60px;
+}
+.icon {
+  height: 30px;
+}
+.inline {
+  display: inline;
+}
+nav {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul {
+  margin: 20px 0;
+  padding: 0 9px;
+}
+nav li {
+  margin: 20px;
+  padding: 0;
+  display: inline;
+}
+nav li:hover a {
+  text-decoration: underline;
+}
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial;
+  color: rgb(25, 87, 160);
+  display: inline-block;
+}
+footer {
+  border-top: .5px dotted;
+  border-color: rgb(33, 108, 200);
+  padding: 5px;
+}
+footer *{
+  color: rgb(25, 87, 160);
+  font-family: Arial;
+  font-style: normal;
+  font-size: 10pt;
+  margin: 0;
+}
+address *{
+  display: inline-block;
+  font-weight: bold;
+  padding: 4px;
+}
+address a {
+  text-decoration: none;
+}
+address p:hover a {
+  text-decoration: underline;
+}
