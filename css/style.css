@@ -2,90 +2,139 @@
 olgo1700
 olgo1700@student.miun.se*/
 
-body {
-  text-align: center;
-  width: 100%;
-  max-width: 960px;
-  background: url(../img/bg.jpg) no-repeat center;
-  background-attachment:fixed;
-  padding: 0;
-  margin: 0 auto;
+@media all {
+  body {
+    text-align: center;
+    width: 100%;
+    max-width: 960px;
+    background: url(../img/bg.jpg) no-repeat center;
+    background-attachment:fixed;
+    padding: 0;
+    margin: 0 auto;
+  }
+  header {
+    border-bottom: .5px dotted;
+    border-color: rgb(33, 108, 200);
+  }
+  section {
+    font-family: tahoma, helvetica, sans-serif;
+    min-height:100%;
+  }
+  #section1 {
+    margin: 4em 0;
+  }
+  h1 {
+    text-transform: uppercase;
+    color: rgba(255, 11, 30, 0.7);
+    margin: 0;
+  }
+  .blue {
+    color: rgba(33, 108, 200, 0.7);
+  }
+  .logo {
+    margin-top: 10px;
+    height: 60px;
+  }
+  .icon {
+    height: 30px;
+  }
+  .inline {
+    display: inline;
+  }
+  nav {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav ul {
+    margin: 20px 0;
+    padding: 0;
+  }
+  nav li {
+    margin: 20px;
+    display: inline;
+    text-transform: uppercase;
+  }
+  nav li.current a {
+    color: red;
+    font-weight: bold;
+  }
+  nav li:hover a {
+    text-decoration: underline;
+  }
+  nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10pt;
+    font-family: Arial;
+    color: rgb(25, 87, 160);
+    display: inline-block;
+  }
+  footer {
+    border-top: .5px dotted;
+    border-color: rgb(33, 108, 200);
+    padding: 5px;
+  }
+  footer *{
+    color: rgb(25, 87, 160);
+    font-family: Arial;
+    font-style: normal;
+    font-size: 10pt;
+    margin: 0;
+  }
+  address *{
+    display: inline-block;
+    font-weight: bold;
+    padding: 4px;
+  }
+  address a {
+    text-decoration: none;
+  }
+  address p:hover a {
+    text-decoration: underline;
+  }
 }
-section {
-  font-family: tahoma, helvetica, sans-serif;
-  min-height:100%;
+
+@media screen and (max-width: 480px) {
+  .logo {
+    margin: 10px;
+    float: right;
+  }
+  nav {
+    text-align: left;
+    margin-left: 30px;
+  }
+  nav a {
+    display: block;
+  }
+  h1 {
+    font-size: 24pt;
+  }
+  address *{
+    display: block;
+  }
 }
-#section1 {
-  margin: 4em 0;
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  nav a {
+    margin: -10px;
+  }
+  h1 {
+    font-size: 24pt;
+  }
 }
-h1 {
-  text-transform: uppercase;
-  font-size: 3vw;
-  color: rgba(255, 11, 30, 0.7);
-  margin: 0;
+
+@media screen and (min-width: 1024px) {
+  body {
+  }
+  h1 {
+    font-size: 36pt;
+  }
 }
-.blue {
-  color: rgba(33, 108, 200, 0.7);
-}
-.logo {
-  margin-top: 10px;
-  height: 60px;
-}
-.icon {
-  height: 30px;
-}
-.inline {
-  display: inline;
-}
-nav {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-nav ul {
-  margin: 20px 0;
-  padding: 0 9px;
-}
-nav li {
-  margin: 20px;
-  display: inline;
-  text-transform: uppercase;
-}
-nav li.current a {
-  color: red;
-  font-weight: bold;
-}
-nav li:hover a {
-  text-decoration: underline;
-}
-nav a {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: Arial;
-  color: rgb(25, 87, 160);
-  display: inline-block;
-}
-footer {
-  border-top: .5px dotted;
-  border-color: rgb(33, 108, 200);
-  padding: 5px;
-}
-footer *{
-  color: rgb(25, 87, 160);
-  font-family: Arial;
-  font-style: normal;
-  font-size: 10pt;
-  margin: 0;
-}
-address *{
-  display: inline-block;
-  font-weight: bold;
-  padding: 4px;
-}
-address a {
-  text-decoration: none;
-}
-address p:hover a {
-  text-decoration: underline;
+
+@media print {
+  body {
+    background-image: none;
+  }
 }
