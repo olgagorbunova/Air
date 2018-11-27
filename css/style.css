@@ -2,11 +2,11 @@
 olgo1700
 olgo1700@student.miun.se*/
 
+/*MEDIA ALL-GENERIC*/
 @media all {
   body {
     text-align: center;
     width: 100%;
-    max-width: 960px;
     background: url(../img/bg.jpg) no-repeat center;
     background-attachment:fixed;
     padding: 0;
@@ -16,15 +16,20 @@ olgo1700@student.miun.se*/
     border-bottom: .5px dotted;
     border-color: rgb(33, 108, 200);
   }
+  .print {
+    display: none;
+  }
   section {
     font-family: tahoma, helvetica, sans-serif;
     min-height:100%;
+    margin: 0 5%;
   }
   #section1 {
-    margin: 2em 0;
+    margin: 2em auto;
   }
   .colorbox {
     padding: 10px;
+    width: 90%;
   }
   h1 {
     text-transform: uppercase;
@@ -34,6 +39,11 @@ olgo1700@student.miun.se*/
   .blue {
     color: rgba(33, 108, 200, 0.7);
   }
+  h5 {
+    text-align: left;
+    color: rgb(33, 108, 200);
+    font-weight: normal;
+  }
   .logo {
     margin-top: 10px;
     height: 60px;
@@ -41,36 +51,11 @@ olgo1700@student.miun.se*/
   .icon {
     height: 30px;
   }
-  .inline {
-    display: inline;
-  }
-  table {
-    margin: 10px auto;
-    font-size: 10pt;
-    padding: 20px;
-    text-align: left;
-    border: .5px dotted;
-    border-color: rgb(33, 108, 200);
-    background-color: white;
-    color: rgb(33, 108, 200);
-  }
-  table td {
-    padding: 10px;
-  }
-  td:first-child {
-    font-weight: bold;
-  }
-  td p {
-    padding: 0;
-    margin: 0;
-  }
+
+  /*NAVIGATION*/
   nav {
     text-align: center;
     list-style: none;
-  }
-  nav ul {
-    margin: 20px 0;
-    padding: 0;
   }
   nav li {
     margin: 20px;
@@ -92,6 +77,28 @@ olgo1700@student.miun.se*/
     color: rgb(25, 87, 160);
     display: inline-block;
   }
+
+  /*TABLE*/
+  table {
+    margin: 10px auto;
+    font-size: 10pt;
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+    color: rgb(33, 108, 200);
+  }
+  table td {
+    padding: 10px;
+  }
+  td:first-child {
+    font-weight: bold;
+  }
+  td p {
+    padding: 0;
+    margin: 0;
+  }
+
+  /*FOOTER*/
   footer {
     border-top: .5px dotted;
     border-color: rgb(33, 108, 200);
@@ -117,6 +124,7 @@ olgo1700@student.miun.se*/
   }
 }
 
+/*MEDIA SCREEN-up to 480px*/
 @media screen and (max-width: 480px) {
   .logo {
     margin: 10px;
@@ -124,7 +132,7 @@ olgo1700@student.miun.se*/
   }
   nav {
     text-align: left;
-    margin-left: 30px;
+    margin-left: 10px;
   }
   nav a {
     display: block;
@@ -140,9 +148,10 @@ olgo1700@student.miun.se*/
   }
 }
 
+/*MEDIA SCREEN-480px to 1024px*/
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-  nav a {
-    margin: -10px;
+  nav li {
+    margin: 20px 3px;
   }
   h1 {
     font-size: 24pt;
@@ -152,9 +161,8 @@ olgo1700@student.miun.se*/
   }
 }
 
+/*MEDIA SCREEN-over 1024px*/
 @media screen and (min-width: 1024px) {
-  body {
-  }
   h1 {
     font-size: 36pt;
   }
@@ -163,8 +171,31 @@ olgo1700@student.miun.se*/
   }
 }
 
+/*MEDIA PRINT*/
 @media print {
+  .print {
+    display: block;
+  }
   body {
     background-image: none;
+  }
+  .colorbox {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+  }
+  table {
+    color: black;
+    font-family: "Times New Roman";
+  }
+  table a {
+    text-decoration: none;
+    color: black;
+  }
+  #browser {
+    display: none;
+  }
+  nav {
+    display: none;
   }
 }
