@@ -94,6 +94,7 @@ olgo1700@student.miun.se*/
     font-weight: bold;
   }
   td p {
+    font-style: normal;
     padding: 0;
     margin: 0;
   }
@@ -111,15 +112,15 @@ olgo1700@student.miun.se*/
     font-size: 10pt;
     margin: 0;
   }
-  address *{
+  footer address *{
     display: inline-block;
     font-weight: bold;
     padding: 4px;
   }
-  address a {
+  footer address a {
     text-decoration: none;
   }
-  address p:hover a {
+  footer address p:hover a {
     text-decoration: underline;
   }
 }
