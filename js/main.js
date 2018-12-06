@@ -41,28 +41,32 @@ function detectBrowser() {
 }
 
 /*EMPLOYESS.HTML methods*/
-var imgNr; //image number argument for a showLargeImg
+//Displays large image accessed with help of arguments that create it's name ("<content><nr>.jpg")
+var imgNr, imgName;
 
-function showLargeImg(imgNr) {
-  var largeImg = document.getElementById("pilotLarge");
-  largeImg.src = "img/pilot" + imgNr + ".jpg";
+function showLargeImg(imgNr, imgName) {
+  var largeImg = document.getElementById("imgLarge");
+  largeImg.src = "img/" + imgName + imgNr + ".jpg";
 }
 
 /*COMMON START METHOD*/
 //Registers event listeners / calls methods based on curremt location
 function start() {
-
 var myLocation = detectLocation();
 
-  if (myLocation == 'employees.html') {
-    var img1thumb  = document.getElementById("pilot1");
-    img1thumb.addEventListener("click", function() {showLargeImg(1);}, false);
-    var img2thumb  = document.getElementById("pilot2");
-    img2thumb.addEventListener("click", function() {showLargeImg(2);}, false);
-    var img3thumb  = document.getElementById("pilot3");
-    img3thumb.addEventListener("click", function() {showLargeImg(3);}, false);
-    var img4thumb  = document.getElementById("pilot4");
-    img4thumb.addEventListener("click", function() {showLargeImg(4);}, false);
+  if (myLocation == 'employees.html' || myLocation == 'ourfleet.html') {
+    var imgContent; //
+      if (myLocation == 'employees.html') {
+        imgContent = "pilot";
+      }
+      else if (myLocation == 'ourfleet.html') {
+        imgContent = "plane";
+      }
+    //css currently allows up to 8 images for the photobooks, therefore loop limited to 8
+    for(let i = 1; i <= 8; i++) {
+      var imgThumb  = document.getElementById("imgsmall" + i);
+      imgThumb.addEventListener("click", function() {showLargeImg(i, imgContent);}, false);
+    }
   }
   else if (myLocation == 'contact.html') {
     detectBrowser();
