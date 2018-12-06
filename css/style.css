@@ -95,28 +95,28 @@ olgo1700@student.miun.se*/
   .imgviewer *{
     width: 100%;
   }
-  .imgsmall1 {
+  #imgsmall1 {
     grid-area: img1small;
   }
-  .imgsmall2 {
+  #imgsmall2 {
     grid-area: img2small;
   }
-  .imgsmall3 {
+  #imgsmall3 {
     grid-area: img3small;
   }
-  .imgsmall4 {
+  #imgsmall4 {
     grid-area: img4small;
   }
-  .imgsmall5 {
+  #imgsmall5 {
     grid-area: img5small;
   }
-  .imgsmall6 {
+  #imgsmall6 {
     grid-area: img6small;
   }
-  .imgsmall7 {
+  #imgsmall7 {
     grid-area: img7small;
   }
-  .imgsmall8 {
+  #imgsmall8 {
     grid-area: img8small;
   }
   .imglarge {
