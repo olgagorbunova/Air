@@ -199,6 +199,16 @@ olgo1700@student.miun.se*/
   .colorbox {
     background-color: rgba(255, 11, 30, 0.7);
   }
+  .imgviewer {
+    grid-gap: 4px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 10px;
+    grid-template-areas:
+      "bigimg bigimg bigimg bigimg"
+      "img1small img2small img3small img4small"
+      "img5small img6small img7small img8small";
+  }
 }
 
 /*MEDIA SCREEN-480px to 1024px*/
