@@ -10,6 +10,7 @@ olgo1700@student.miun.se
     <meta charset="utf-8">
     <title>Bookings</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
   </head>
   <body>
     <header>
@@ -30,6 +31,38 @@ olgo1700@student.miun.se
     <main>
       <h3 class="print">Bookings</h3>
       <section id="section1">
+        <section class="bookpage">
+          <section id="bookinfo">
+            <form id="myForm" action="">
+              <h3>Please enter passenger details</h3>
+              <p><label for="name">Name:</label>
+                <input id="name" type="text" required>
+              </p>
+              <p><label for="lastname">Last name:</label>
+                <input id="lastname" type="text" required>
+              </p>
+              <p><label for="persnr">Personal number:</label>
+                <input id="persnr" type="text" placeholder="YYMMDD-XXXX" required>
+              </p>
+              <p><label for="class">Class:</label>
+                <input id="class" type="text" placeholder="Click on a seat to choose" value="" readonly>
+              </p>
+              <p><label id="seatnr">Seat:</label>
+                <input id="seatnr" type="text" placeholder="Click on a seat to choose" value="" readonly>
+              </p>
+              <p>
+                <input id="submit" type="submit">
+                <input id="reset" type="reset">
+              </p>
+            </form>
+          </section>
+          <section id="bookseats">
+            <table class="seats">
+              <tbody id="tablebody">
+              </tbody>
+            </table>
+          </section>
+        </section>
       </section>
     </main>
 
