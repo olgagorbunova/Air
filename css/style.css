@@ -130,8 +130,49 @@ olgo1700@student.miun.se*/
       box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
 
-  /*TABLE*/
-  table {
+  /*BOOKING PAGE LAYOUT*/
+  .bookpage {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-areas:
+      "info seats";
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  #bookinfo {
+    grid-area: info;
+  }
+  #bookseats {
+    grid-area: seats;
+  }
+
+  /*BOOKING FORM*/
+  label {
+    width:150px;
+    display: inline-block;
+}
+
+  /*SEATS TABLE*/
+  .seats {
+    border-collapse: separate;
+    border-spacing: 5px 10px;
+    width: 100%;
+  }
+  .seats td {
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+  }
+  .seats td:hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  tr #free {
+    background-color: rgba(40, 220, 140, 0.7);
+  }
+
+  /*CONTACTS TABLE*/
+  .contacts {
     margin: 10px auto;
     font-size: 10pt;
     padding: 20px;
@@ -139,13 +180,13 @@ olgo1700@student.miun.se*/
     background-color: white;
     color: rgb(33, 108, 200);
   }
-  table td {
+  .contacts td {
     padding: 10px;
   }
-  td:first-child {
+  .contacts td:first-child {
     font-weight: bold;
   }
-  td p {
+  .contacts td p {
     font-style: normal;
     padding: 0;
     margin: 0;
@@ -247,11 +288,11 @@ olgo1700@student.miun.se*/
     margin: 0;
     padding: 0;
   }
-  table {
+  .contacts {
     color: black;
     font-family: "Times New Roman";
   }
-  table a {
+  .contacts a {
     text-decoration: none;
     color: black;
   }
