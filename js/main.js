@@ -49,6 +49,49 @@ function showLargeImg(imgNr, imgName) {
   largeImg.src = "img/" + imgName + imgNr + ".jpg";
 }
 
+/*BOOKING.HTML methods*/
+var seats_rows = new Array(3).fill("free");
+var seats = new Array(6).fill(seats_rows);
+
+//draws table with airplane seats, assigns current seat states("free", "looking", "busy") and class("business" or "economy");
+function loadSeats() {
+  var abc = ["A", "B", "C"]; //seat letters
+  var rows = 6; //nr of rows
+  var cols = 3; //nr of columns
+  var business = 2; //nr of business class rows
+
+  var tbody = document.getElementById("tablebody");
+
+  for(var i = 0; i < rows; i++) {
+    var row = document.createElement("tr");
+    for(var j = 0; j < cols; ++j) {
+      var text = (i + 1) + abc[j]; //seat number to display in the cell
+      var cell = document.createElement("td");
+      cell.appendChild(document.createTextNode(text));
+      var state = seats[i][j]; //get seat state from seats array
+      cell.setAttribute("id", state);
+      //add info about class in a "title" attribute
+      if(i < business) {
+        cell.setAttribute("title", "Business Class");
+      }
+      else {
+        cell.setAttribute("title", "Economy Class");
+      }
+      row.appendChild(cell);
+    }
+    tbody.appendChild(row);
+  }
+
+  document.getElementById("tablebody").addEventListener("click", chooseSeat, false);
+}
+
+function chooseSeat() {
+}
+
+function start() {
+  loadSeats();
+}
+
 /*COMMON START METHOD*/
 //Registers event listeners / calls methods based on curremt location
 function start() {
@@ -70,6 +113,9 @@ var myLocation = detectLocation();
   }
   else if (myLocation == 'contact.html') {
     detectBrowser();
+  }
+  else if (myLocation == 'booking.html') {
+    loadSeats();
   }
 }
 
