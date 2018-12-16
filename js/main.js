@@ -125,14 +125,14 @@ function chooseSeat(e) {
 }
 
 //Makes a form field read only (necessary because html "readonly" attribute does not work with "required" attribute)
-function readOnly(element_id) {
-  document.getElementById(element_id).blur();
+function makeReadOnly(e) {
+  e.target.blur();
 }
 
 //Stores form entries in sessionStorage
-function storeFormEntry(id) {
-  var item = document.getElementById(id);
-  sessionStorage.setItem(id, item.value);
+function storeFormEntry(e) {
+  var key = e.target.getAttribute("id");
+  sessionStorage.setItem(key, e.target.value);
 }
 
 //Saves information about a newly-booked sear to sessionStorage; removes input data stored in sessionStorage. Calls printPass().
@@ -219,8 +219,8 @@ var myLocation = detectLocation();
     //event listeners for making some fields readonly
     var classBtn = document.forms["myForm"]["class"];
     var seatBtn = document.forms["myForm"]["seatnr"];
-    classBtn.addEventListener("focus", function() {readOnly("class");}, false);
-    seatBtn.addEventListener("focus", function() {readOnly("seatnr");}, false);
+    classBtn.addEventListener("focus", makeReadOnly, false);
+    seatBtn.addEventListener("focus", makeReadOnly, false);
 
     //submit and reset event listeners
     var form = document.getElementById("myForm");
@@ -229,11 +229,11 @@ var myLocation = detectLocation();
 
     //Event listeners to autosave entered data
     var nameField = document.forms["myForm"]["name"];
-    nameField.addEventListener("change", function() {storeFormEntry("name");}, false);
+    nameField.addEventListener("change", storeFormEntry, false);
     var lastNameField = document.forms["myForm"]["lastname"];
-    lastNameField.addEventListener("change", function() {storeFormEntry("lastname");}, false);
+    lastNameField.addEventListener("change", storeFormEntry, false);
     var persNrField = document.forms["myForm"]["persnr"];
-    persNrField.addEventListener("change", function() {storeFormEntry("persnr");}, false);
+    persNrField.addEventListener("change", storeFormEntry, false);
 
     //sets autosaved values when page is reloaded
     nameField.value = sessionStorage.getItem("name");
