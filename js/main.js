@@ -57,7 +57,7 @@ var oldSeat = null; //used by chooseSeat() method
 //draws table with airplane seats, assigns current seat states("free", "looking", "busy") and class("business" or "economy");
 function loadSeats() {
 
-  if(!sessionStorage.getItem('bookedSeats')) {
+  if(!sessionStorage.getItem("bookedSeats")) {
     var seatsRows = new Array(3).fill("free"); //two-dimentional array with seats
     seats = new Array(6).fill(seatsRows);
     sessionStorage.setItem("seatsUpd", JSON.stringify(seats));
@@ -135,27 +135,47 @@ function storeFormEntry(id) {
   sessionStorage.setItem(id, item.value);
 }
 
-//Saves information about a newly-booked sear to sessionStorage; removes input data stored in sessionStorage
+//Saves information about a newly-booked sear to sessionStorage; removes input data stored in sessionStorage. Calls printPass().
 function submitForm() {
   var columnIdx = oldSeat.getAttribute("id");
   var rowIdx = oldSeat.parentNode.getAttribute("id");
-
   seats[rowIdx][columnIdx] = "busy";
 
   if(!sessionStorage.getItem("bookedSeats")) {
-    sessionStorage.setItem('bookedSeats', true);
+    sessionStorage.setItem("bookedSeats", true);
   }
   sessionStorage.setItem("seatsUpd", JSON.stringify(seats));
 
-  sessionStorage.removeItem("name");
-  sessionStorage.removeItem("lastname");
-  sessionStorage.removeItem("persnr");
+  sessionStorage.setItem("class", document.getElementById("class").value);
+  sessionStorage.setItem("seatnr", document.getElementById("seatnr").value);
 
   printPass();
 }
 
+//Opens a printable boarding pass in a new window. Removes booking data from sessionStorage.
 function printPass() {
+  var windowFeatures = "resizable=no,scrollable=no,width=900,height=450";
 
+  var passWindow = window.open("", '_blank', windowFeatures);
+
+  var type = "<!DOCTYPE html>";
+  var head = "<head><meta charset='utf-8'><title>Bookings</title><link rel='stylesheet' href='css/style.css'></head>";
+
+  var name = sessionStorage.getItem("name") + " " + sessionStorage.getItem("lastname");
+  var persnr = sessionStorage.getItem("persnr");
+  var seat = sessionStorage.getItem("seatnr");
+  var clas = sessionStorage.getItem("class");
+  var printBtn = "<input type='button' onClick='window.print()' value='Print'/>";
+
+  var section = "<section id='pass'><h2>Boarding Pass</h2><h3>Passenger name: " + name + "</h3><h3>Pers. Nr: " + persnr + "</h3><h3>Seat: " + seat + "</h3><h4>" + clas +  " class</h4></section>";
+  var body = "<body id='boardingPass'>" + section + printBtn + "</body><footer></footer></html>";
+  passWindow.document.write(type + "<html>" + head + body);
+
+  sessionStorage.removeItem("name");
+  sessionStorage.removeItem("lastname");
+  sessionStorage.removeItem("persnr");
+  sessionStorage.removeItem("class");
+  sessionStorage.removeItem("seatnr");
 }
 
 //Cancells last viewed seat if form is reset; removes input data stored in sessionStorage
@@ -215,6 +235,7 @@ var myLocation = detectLocation();
     var persNrField = document.forms["myForm"]["persnr"];
     persNrField.addEventListener("change", function() {storeFormEntry("persnr");}, false);
 
+    //sets autosaved values when page is reloaded
     nameField.value = sessionStorage.getItem("name");
     lastNameField.value = sessionStorage.getItem("lastname");
     persNrField.value = sessionStorage.getItem("persnr");

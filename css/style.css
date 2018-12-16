@@ -132,20 +132,12 @@ olgo1700@student.miun.se*/
 
   /*BOOKING PAGE LAYOUT*/
   .bookpage {
+    display: inline-flex;
     color: rgb(25, 87, 160);
-    display: grid;
-    grid-template-columns: auto 220px;
-    grid-template-areas:
-      "info seats";
     width: 80%;
     margin: 0 auto;
     text-align: left;
-  }
-  #bookinfo {
-    grid-area: info;
-  }
-  #bookseats {
-    grid-area: seats;
+    align-items: center;
   }
 
   /*BOOKING FORM*/
@@ -254,6 +246,30 @@ olgo1700@student.miun.se*/
   }
 }
 
+/*BOARDING PASS WINDOW*/
+#boardingPass {
+  background: none;
+  background-color: white;
+}
+#pass {
+  height: 300px;
+  width: 800px;
+  margin: 50px auto;
+  border: 1px solid black;
+  text-align: left;
+}
+#pass h2 {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 2px dashed black;
+}
+#pass h3, #pass h4 {
+  padding-left: 30px;
+}
+#boardingPass input {
+  margin-bottom: 50px;
+}
+
 /*MEDIA SCREEN-up to 480px*/
 @media screen and (max-width: 480px) {
   .logo {
@@ -287,11 +303,7 @@ olgo1700@student.miun.se*/
       "img5small img6small img7small img8small";
   }
   .bookpage {
-    grid-template-columns: auto;
-    grid-template-areas:
-      "seats"
-      "info";
-    width: 90%;
+    display: block;
   }
 }
 
@@ -346,6 +358,9 @@ olgo1700@student.miun.se*/
     display: none;
   }
   nav {
+    display: none;
+  }
+  #boardingPass input {
     display: none;
   }
 }
