@@ -33,31 +33,31 @@ olgo1700@student.miun.se
       <section id="section1">
         <section class="bookpage">
           <section id="bookinfo">
+            <h3>Please enter booking details</h3>
             <form id="myForm" action="">
-              <h3>Please enter passenger details</h3>
               <p><label for="name">Name:</label>
-                <input id="name" type="text" required>
+                <input id="name" type="text" size="25" required>
               </p>
               <p><label for="lastname">Last name:</label>
-                <input id="lastname" type="text" required>
+                <input id="lastname" type="text" size="25" required>
               </p>
               <p><label for="persnr">Personal number:</label>
-                <input id="persnr" type="text" placeholder="YYMMDD-XXXX" required>
+                <input id="persnr" type="text" size="25" placeholder="YYMMDD-XXXX" autocomplete="off" required>
               </p>
               <p><label for="class">Class:</label>
-                <input id="class" type="text" placeholder="Click on a seat to choose" value="" readonly>
+                <input id="class" type="text" size="25" placeholder="Hoover over a seat to view" value="" required>
               </p>
-              <p><label id="seatnr">Seat:</label>
-                <input id="seatnr" type="text" placeholder="Click on a seat to choose" value="" readonly>
+              <p><label for="seatnr">Seat:</label>
+                <input id="seatnr" type="text" size="25" placeholder="Click on a seat to choose" value="" required>
               </p>
               <p>
-                <input id="submit" type="submit">
-                <input id="reset" type="reset">
+                <input id="submit" type="submit" value="Book">
+                <input id="reset" type="reset" value="Clear">
               </p>
             </form>
           </section>
           <section id="bookseats">
-            <table class="seats">
+            <table id="myTable" class="seats">
               <tbody id="tablebody">
               </tbody>
             </table>

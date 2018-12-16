@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2017-10-25T11:37:45.957000000</meta:creation-date><dc:date>2018-12-13T13:30:43.417000000</dc:date><meta:editing-duration>PT5H33M24S</meta:editing-duration><meta:editing-cycles>60</meta:editing-cycles><meta:generator>LibreOffice/6.1.2.1$Windows_X86_64 LibreOffice_project/65905a128db06ba48db947242809d14d3f9a93fe</meta:generator><meta:document-statistic meta:table-count="3" meta:image-count="1" meta:object-count="0" meta:page-count="9" meta:paragraph-count="88" meta:word-count="780" meta:character-count="5118" meta:non-whitespace-character-count="4438"/></office:meta>
+ <office:meta><meta:creation-date>2017-10-25T11:37:45.957000000</meta:creation-date><dc:date>2018-12-14T18:49:07.558000000</dc:date><meta:editing-duration>P1DT10H43M32S</meta:editing-duration><meta:editing-cycles>62</meta:editing-cycles><meta:generator>LibreOffice/6.1.2.1$Windows_X86_64 LibreOffice_project/65905a128db06ba48db947242809d14d3f9a93fe</meta:generator><meta:document-statistic meta:table-count="3" meta:image-count="1" meta:object-count="0" meta:page-count="9" meta:paragraph-count="89" meta:word-count="806" meta:character-count="5272" meta:non-whitespace-character-count="4567"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">95250</config:config-item>
-   <config:config-item config:name="ViewAreaLeft" config:type="long">1411</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">133350</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">19475</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">11591</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">8421</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">101180</config:config-item>
-     <config:config-item config:name="VisibleLeft" config:type="long">1411</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">95250</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">20884</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">106839</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">2501</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">134142</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">133350</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">19473</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">144939</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -83,7 +83,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">3877561</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">3919575</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -97,7 +97,7 @@
    <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
    <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">true</config:config-item>
    <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
    <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
@@ -539,229 +539,247 @@
    <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" officeooo:rsid="002bdc44" officeooo:paragraph-rsid="00336a8b" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="120%" style:writing-mode="lr-tb"/>
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="0039cfbb" officeooo:paragraph-rsid="003ac571" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="003ac571" officeooo:paragraph-rsid="003b2ab9" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="003b2ab9" officeooo:paragraph-rsid="003b2ab9" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="003b2ab9" officeooo:paragraph-rsid="003b2ab9" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="002e6b21" officeooo:paragraph-rsid="002e6b21" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="003ac571" officeooo:paragraph-rsid="003ac571"/>
+  </style:style>
+  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="003b2ab9" officeooo:paragraph-rsid="003b2ab9"/>
+  </style:style>
+  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="003b2ab9" officeooo:paragraph-rsid="003b2ab9" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="120%" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="120%" style:writing-mode="lr-tb"/>
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana" fo:font-size="10pt" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" style:text-blinking="false" fo:background-color="transparent"/>
   </style:style>
-  <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="120%" style:writing-mode="lr-tb"/>
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana" fo:font-size="8pt" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" style:text-blinking="false" fo:background-color="transparent"/>
   </style:style>
-  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="120%" fo:text-align="center" style:justify-single-word="false" style:writing-mode="lr-tb"/>
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana" fo:font-size="8pt" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" style:text-blinking="false" fo:background-color="transparent"/>
   </style:style>
-  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="120%" style:writing-mode="lr-tb"/>
   </style:style>
-  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Standard">
    <style:text-properties officeooo:paragraph-rsid="0011a111"/>
   </style:style>
-  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Standard">
    <style:text-properties fo:font-style="italic" officeooo:rsid="00264527" officeooo:paragraph-rsid="00264527" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
-  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:text-properties style:font-name="Verdana1" fo:font-size="8pt" officeooo:rsid="000ddee6" officeooo:paragraph-rsid="000ddee6" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
   </style:style>
-  <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="8pt" officeooo:rsid="000ddee6" officeooo:paragraph-rsid="000ddee6" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
   </style:style>
-  <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:text-properties style:font-name="Verdana1" fo:font-size="8pt" officeooo:rsid="0028b3dc" officeooo:paragraph-rsid="0028b3dc" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
   </style:style>
-  <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties style:font-name="Verdana1" fo:font-size="8pt" officeooo:rsid="0039cfbb" officeooo:paragraph-rsid="0039cfbb" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="8pt" fo:font-weight="bold" officeooo:rsid="000ddee6" officeooo:paragraph-rsid="000ddee6" style:font-size-asian="8pt" style:font-weight-asian="bold" style:font-size-complex="8pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="8pt" fo:font-weight="bold" officeooo:rsid="002698ba" officeooo:paragraph-rsid="002698ba" style:font-size-asian="8pt" style:font-weight-asian="bold" style:font-size-complex="8pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P73" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="8pt" fo:font-weight="bold" officeooo:rsid="0028b3dc" officeooo:paragraph-rsid="0028b3dc" style:font-size-asian="8pt" style:font-weight-asian="bold" style:font-size-complex="8pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P74" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="8pt" fo:font-weight="bold" officeooo:rsid="00379191" officeooo:paragraph-rsid="00379191" style:font-size-asian="8pt" style:font-weight-asian="bold" style:font-size-complex="8pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P75" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="8pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="000ddee6" officeooo:paragraph-rsid="000ddee6" style:font-size-asian="8pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="8pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P76" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="10pt" officeooo:rsid="0010cf40" officeooo:paragraph-rsid="0010cf40" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
-  <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P77" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="10pt" officeooo:rsid="00119cae" officeooo:paragraph-rsid="00119cae" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
-  <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P78" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="10pt" officeooo:rsid="002698ba" officeooo:paragraph-rsid="002698ba" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
-  <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P79" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="10pt" officeooo:rsid="0028b3dc" officeooo:paragraph-rsid="0028b3dc" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
-  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P80" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="10pt" officeooo:rsid="00379191" officeooo:paragraph-rsid="00379191" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
-  <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P81" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Verdana1" fo:font-size="10pt" officeooo:rsid="0039cfbb" officeooo:paragraph-rsid="0039cfbb" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P82" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="0010cf40" officeooo:paragraph-rsid="0010cf40" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P73" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P83" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana1" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="0028b3dc" officeooo:paragraph-rsid="0028b3dc" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P74" style:family="paragraph" style:parent-style-name="Contents_20_1">
+  <style:style style:name="P84" style:family="paragraph" style:parent-style-name="Contents_20_1">
    <style:paragraph-properties>
     <style:tab-stops>
      <style:tab-stop style:position="17cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
     </style:tab-stops>
    </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P75" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P85" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties officeooo:rsid="0011a111" officeooo:paragraph-rsid="0011a111"/>
   </style:style>
-  <style:style style:name="P76" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties officeooo:rsid="00196b02" officeooo:paragraph-rsid="0011a111"/>
   </style:style>
-  <style:style style:name="P77" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties officeooo:rsid="00196b02" officeooo:paragraph-rsid="00347e58"/>
   </style:style>
-  <style:style style:name="P78" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P88" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties officeooo:rsid="0028b3dc" officeooo:paragraph-rsid="0011a111"/>
   </style:style>
-  <style:style style:name="P79" style:family="paragraph" style:parent-style-name="Heading1NoNumbering">
+  <style:style style:name="P89" style:family="paragraph" style:parent-style-name="Heading1NoNumbering">
    <style:paragraph-properties fo:break-before="page"/>
   </style:style>
-  <style:style style:name="P80" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P90" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:text-properties officeooo:rsid="0011a111" officeooo:paragraph-rsid="0011a111"/>
   </style:style>
-  <style:style style:name="P81" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
+  <style:style style:name="P91" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"/>
   </style:style>
-  <style:style style:name="P82" style:family="paragraph" style:parent-style-name="ToC">
+  <style:style style:name="P92" style:family="paragraph" style:parent-style-name="ToC">
    <style:paragraph-properties>
     <style:tab-stops>
      <style:tab-stop style:position="17cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
     </style:tab-stops>
    </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P83" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P93" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties fo:font-size="14pt" officeooo:rsid="001a2379" officeooo:paragraph-rsid="001a2379" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
   </style:style>
-  <style:style style:name="P84" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P94" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties fo:font-size="14pt" officeooo:rsid="001a2379" officeooo:paragraph-rsid="0023a220" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
   </style:style>
-  <style:style style:name="P85" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P95" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties fo:font-size="14pt" officeooo:rsid="001a2379" officeooo:paragraph-rsid="00336a8b" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
   </style:style>
-  <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P96" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties fo:font-size="14pt" officeooo:rsid="00347e58" officeooo:paragraph-rsid="00347e58" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
   </style:style>
-  <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P97" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties fo:font-size="14pt" officeooo:rsid="0028b3dc" officeooo:paragraph-rsid="001a2379" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
   </style:style>
-  <style:style style:name="P88" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P98" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties fo:font-size="14pt" officeooo:rsid="0023a220" officeooo:paragraph-rsid="0023a220" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
   </style:style>
-  <style:style style:name="P89" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties fo:font-size="14pt" officeooo:rsid="0023a220" officeooo:paragraph-rsid="00336a8b" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
   </style:style>
-  <style:style style:name="P90" style:family="paragraph" style:parent-style-name="Contents_20_2">
+  <style:style style:name="P100" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="001a2379" officeooo:paragraph-rsid="001a2379"/>
+  </style:style>
+  <style:style style:name="P101" style:family="paragraph" style:parent-style-name="Contents_20_2">
    <style:paragraph-properties>
     <style:tab-stops>
      <style:tab-stop style:position="16.501cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
     </style:tab-stops>
    </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P91" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="0039cfbb" officeooo:paragraph-rsid="003ac571" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P92" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="003ac571" officeooo:paragraph-rsid="003b2ab9" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P93" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="003b2ab9" officeooo:paragraph-rsid="003b2ab9" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P94" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="003b2ab9" officeooo:paragraph-rsid="003b2ab9" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P95" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="002e6b21" officeooo:paragraph-rsid="002e6b21" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P96" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="003ac571" officeooo:paragraph-rsid="003ac571"/>
-  </style:style>
-  <style:style style:name="P97" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="003b2ab9" officeooo:paragraph-rsid="003b2ab9"/>
-  </style:style>
-  <style:style style:name="P98" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="003b2ab9" officeooo:paragraph-rsid="003b2ab9"/>
-  </style:style>
-  <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="003b2ab9" officeooo:paragraph-rsid="003b2ab9" style:font-style-asian="normal" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P100" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties fo:font-size="14pt" officeooo:rsid="0028b3dc" officeooo:paragraph-rsid="001a2379" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
-  </style:style>
-  <style:style style:name="P101" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties fo:font-size="14pt" officeooo:rsid="0023a220" officeooo:paragraph-rsid="0023a220" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
-  </style:style>
-  <style:style style:name="P102" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties fo:font-size="14pt" officeooo:rsid="0023a220" officeooo:paragraph-rsid="00336a8b" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  <style:style style:name="P102" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="First_20_Page">
+   <style:paragraph-properties style:page-number="auto"/>
   </style:style>
   <style:style style:name="P103" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties fo:font-size="14pt" officeooo:rsid="00347e58" officeooo:paragraph-rsid="00347e58" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
-  </style:style>
-  <style:style style:name="P104" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="001a2379" officeooo:paragraph-rsid="001a2379"/>
   </style:style>
-  <style:style style:name="P105" style:family="paragraph" style:parent-style-name="Heading_20_1" style:list-style-name="">
+  <style:style style:name="P104" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="0028b3dc" officeooo:paragraph-rsid="001a2379" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P105" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="0023a220" officeooo:paragraph-rsid="0023a220" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P106" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="0023a220" officeooo:paragraph-rsid="00336a8b" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P107" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="00347e58" officeooo:paragraph-rsid="00347e58" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P108" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="003ac571" officeooo:paragraph-rsid="003ac571" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P109" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="003b2ab9" officeooo:paragraph-rsid="003b2ab9" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P110" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="003b2ab9" officeooo:paragraph-rsid="003b2ab9" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P111" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="003bced7" officeooo:paragraph-rsid="003bced7" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P112" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="italic" officeooo:rsid="002cb5d8" officeooo:paragraph-rsid="003b2ab9" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-size-complex="10pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="P113" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Verdana1" fo:font-size="10pt" officeooo:rsid="0039cfbb" officeooo:paragraph-rsid="002698ba" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P114" style:family="paragraph" style:parent-style-name="Heading_20_1" style:list-style-name="">
    <style:text-properties officeooo:rsid="0011a111" officeooo:paragraph-rsid="0011a111"/>
   </style:style>
-  <style:style style:name="P106" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P115" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties officeooo:rsid="0028b3dc" officeooo:paragraph-rsid="0011a111"/>
   </style:style>
-  <style:style style:name="P107" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P116" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties officeooo:rsid="00196b02" officeooo:paragraph-rsid="0011a111"/>
   </style:style>
-  <style:style style:name="P108" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P117" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties officeooo:rsid="00196b02" officeooo:paragraph-rsid="00347e58"/>
-  </style:style>
-  <style:style style:name="P109" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:text-properties style:font-name="Verdana1" fo:font-size="8pt" officeooo:rsid="000ddee6" officeooo:paragraph-rsid="000ddee6" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
-  </style:style>
-  <style:style style:name="P110" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:text-properties style:font-name="Verdana1" fo:font-size="8pt" officeooo:rsid="0039cfbb" officeooo:paragraph-rsid="0039cfbb" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
-  </style:style>
-  <style:style style:name="P111" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties style:font-name="Verdana1" fo:font-size="10pt" officeooo:rsid="0039cfbb" officeooo:paragraph-rsid="0039cfbb" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
-  </style:style>
-  <style:style style:name="P112" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="First_20_Page">
-   <style:paragraph-properties style:page-number="auto"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana" fo:font-size="10pt" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" style:text-blinking="false" fo:background-color="transparent" loext:char-shading-value="0"/>
@@ -1065,16 +1083,16 @@
      <table:table-column table:style-name="Table3.C"/>
      <table:table-row table:style-name="Table3.1">
       <table:table-cell table:style-name="Table3.A1" office:value-type="string">
-       <text:p text:style-name="P59">Mi<text:span text:style-name="T50">ttuniversitetet</text:span></text:p>
-       <text:p text:style-name="P59">DSV Östersund</text:p>
-       <text:p text:style-name="P110">Olga Gorbunova</text:p>
+       <text:p text:style-name="P67">Mi<text:span text:style-name="T50">ttuniversitetet</text:span></text:p>
+       <text:p text:style-name="P67">DSV Östersund</text:p>
+       <text:p text:style-name="P70">Olga Gorbunova</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table3.A1" office:value-type="string">
-       <text:p text:style-name="P65">Web Programming with HTM5, CSS3 &amp; JavaScript</text:p>
-       <text:p text:style-name="P66"><text:span text:style-name="T51">Assignment</text:span> <text:span text:style-name="T58">4</text:span></text:p>
+       <text:p text:style-name="P74">Web Programming with HTM5, CSS3 &amp; JavaScript</text:p>
+       <text:p text:style-name="P75"><text:span text:style-name="T51">Assignment</text:span> <text:span text:style-name="T58">4</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table3.A1" office:value-type="string">
-       <text:p text:style-name="P60"><text:date style:data-style-name="N30" text:date-value="2018-12-13T13:30:47.468999843">12/13/18</text:date></text:p>
+       <text:p text:style-name="P68"><text:date style:data-style-name="N30" text:date-value="2018-12-14T18:49:07.772000217">12/13/18</text:date></text:p>
       </table:table-cell>
      </table:table-row>
     </table:table>
@@ -1109,7 +1127,7 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
-   <text:p text:style-name="P112"><text:bookmark text:name="docs-internal-guid-d05a483f-52ea-1fe9-f1e2-e96b39129303"/><text:s/></text:p>
+   <text:p text:style-name="P102"><text:bookmark text:name="docs-internal-guid-d05a483f-52ea-1fe9-f1e2-e96b39129303"/><text:s/></text:p>
    <text:p text:style-name="Standard"/>
    <text:p text:style-name="Standard"><draw:frame draw:style-name="fr1" draw:name="Image1" text:anchor-type="paragraph" svg:x="1.852cm" svg:y="0.339cm" svg:width="13.296cm" svg:height="6.297cm" draw:z-index="0"><draw:image loext:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAfkAAADwCAYAAAADzh2YAAAACXBIWXMAABcSAAAXEgFnn9JS
@@ -1352,78 +1370,78 @@
    <text:p text:style-name="P11"/>
    <text:p text:style-name="P11"/>
    <text:p text:style-name="P11"><text:bookmark text:name="docs-internal-guid-ba1506ae-5318-9a1d-2542-b159e88597b6"/>MITTUNIVERSITETET</text:p>
-   <text:p text:style-name="P53">DSV Östersund</text:p>
-   <text:p text:style-name="P53"/>
+   <text:p text:style-name="P61">DSV Östersund</text:p>
+   <text:p text:style-name="P61"/>
    <table:table table:name="Laborationsdata" table:style-name="Laborationsdata">
     <table:table-column table:style-name="Laborationsdata.A"/>
     <table:table-column table:style-name="Laborationsdata.B"/>
     <table:table-column table:style-name="Laborationsdata.C"/>
     <table:table-row>
      <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P73">Examiner</text:p>
+      <text:p text:style-name="P83">Examiner</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P111">Erik Ström</text:p>
+      <text:p text:style-name="P81">Erik Ström</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P67"><text:span text:style-name="T58">Erik.strom</text:span>@miun.se</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P73">Supervisor</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P69"><text:span text:style-name="T58">Robert Jonsson</text:span></text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P111">Robert.jonsson<text:span text:style-name="T6">@miun.se</text:span></text:p>
+      <text:p text:style-name="P76"><text:span text:style-name="T58">Erik.strom</text:span>@miun.se</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P73">Author</text:p>
+      <text:p text:style-name="P83">Supervisor</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P111">Olga Gorbunova</text:p>
+      <text:p text:style-name="P113">Robert Jonsson</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P67"><text:span text:style-name="T58">olgo1700</text:span>@student.miun.se</text:p>
+      <text:p text:style-name="P81">Robert.jonsson<text:span text:style-name="T6">@miun.se</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P73">Programme</text:p>
+      <text:p text:style-name="P83">Author</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
+      <text:p text:style-name="P81">Olga Gorbunova</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
+      <text:p text:style-name="P76"><text:span text:style-name="T58">olgo1700</text:span>@student.miun.se</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
+      <text:p text:style-name="P83">Programme</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Laborationsdata.A1" table:number-columns-spanned="2" office:value-type="string">
-      <text:p text:style-name="P67">Programvaruteknik, 180hp</text:p>
+      <text:p text:style-name="P76">Programvaruteknik, 180hp</text:p>
      </table:table-cell>
      <table:covered-table-cell/>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P73">Course</text:p>
+      <text:p text:style-name="P83">Course</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Laborationsdata.A1" table:number-columns-spanned="2" office:value-type="string">
-      <text:p text:style-name="P71">DT146G, Web Programming with HTML5 CSS3 &amp; JavaScript</text:p>
+      <text:p text:style-name="P80">DT146G, Web Programming with HTML5 CSS3 &amp; JavaScript</text:p>
      </table:table-cell>
      <table:covered-table-cell/>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P73">Field of study</text:p>
+      <text:p text:style-name="P83">Field of study</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Laborationsdata.A1" table:number-columns-spanned="2" office:value-type="string">
-      <text:p text:style-name="P70">Computer Engineering</text:p>
+      <text:p text:style-name="P79">Computer Engineering</text:p>
      </table:table-cell>
      <table:covered-table-cell/>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Laborationsdata.A1" office:value-type="string">
-      <text:p text:style-name="P73">Semester, year</text:p>
+      <text:p text:style-name="P83">Semester, year</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Laborationsdata.A1" table:number-columns-spanned="2" office:value-type="string">
-      <text:p text:style-name="P68">HT, 201<text:span text:style-name="T49">8</text:span></text:p>
+      <text:p text:style-name="P77">HT, 201<text:span text:style-name="T49">8</text:span></text:p>
      </table:table-cell>
      <table:covered-table-cell/>
     </table:table-row>
@@ -1519,103 +1537,104 @@
      <text:index-title text:style-name="Sect1" text:name="Table of Contents1_Head">
       <text:p text:style-name="Contents_20_Heading"><text:soft-page-break/>Table of Contents</text:p>
      </text:index-title>
-     <text:p text:style-name="P74"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc116_3322904026" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">1 Introduction<text:tab/>4</text:a></text:p>
-     <text:p text:style-name="P90"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc303_933729857" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">1.1 Background<text:tab/>4</text:a></text:p>
-     <text:p text:style-name="P90"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc305_933729857" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">1.2 Purpose<text:tab/>4</text:a></text:p>
-     <text:p text:style-name="P74"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc118_3322904026" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">2 Methodology<text:tab/>5</text:a></text:p>
-     <text:p text:style-name="P90"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc375_273753380" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">2.1 Equipment / Environment<text:tab/>5</text:a></text:p>
-     <text:p text:style-name="P90"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc377_273753380" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">2.2 Procedures<text:tab/>5</text:a></text:p>
-     <text:p text:style-name="P90"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2046_701624176" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">2.3 Emerged Obstacles<text:tab/>5</text:a></text:p>
-     <text:p text:style-name="P90"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2048_701624176" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">2.4 Summary of Procedures<text:tab/>5</text:a></text:p>
-     <text:p text:style-name="P74"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc120_3322904026" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">3 Results<text:tab/>6</text:a></text:p>
-     <text:p text:style-name="P74"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc232_3322904026" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4 Discussion<text:tab/>7</text:a></text:p>
-     <text:p text:style-name="P90"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2745_701624176" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4.1 Goal Fulfillment<text:tab/>7</text:a></text:p>
-     <text:p text:style-name="P90"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2747_701624176" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4.2 Analysis of Methodology<text:tab/>7</text:a></text:p>
-     <text:p text:style-name="P74"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2219_701624176" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">5 Conclusions<text:tab/>8</text:a></text:p>
-     <text:p text:style-name="P74"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc124_3322904026" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">References<text:tab/>9</text:a></text:p>
+     <text:p text:style-name="P84"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc116_3322904026" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">1 Introduction<text:tab/>4</text:a></text:p>
+     <text:p text:style-name="P101"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc303_933729857" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">1.1 Background<text:tab/>4</text:a></text:p>
+     <text:p text:style-name="P101"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc305_933729857" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">1.2 Purpose<text:tab/>4</text:a></text:p>
+     <text:p text:style-name="P84"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc118_3322904026" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">2 Methodology<text:tab/>5</text:a></text:p>
+     <text:p text:style-name="P101"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc375_273753380" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">2.1 Equipment / Environment<text:tab/>5</text:a></text:p>
+     <text:p text:style-name="P101"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc377_273753380" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">2.2 Procedures<text:tab/>5</text:a></text:p>
+     <text:p text:style-name="P101"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2046_701624176" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">2.3 Emerged Obstacles<text:tab/>5</text:a></text:p>
+     <text:p text:style-name="P101"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2048_701624176" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">2.4 Summary of Procedures<text:tab/>5</text:a></text:p>
+     <text:p text:style-name="P84"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc120_3322904026" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">3 Results<text:tab/>6</text:a></text:p>
+     <text:p text:style-name="P84"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc232_3322904026" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4 Discussion<text:tab/>7</text:a></text:p>
+     <text:p text:style-name="P101"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2745_701624176" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4.1 Goal Fulfillment<text:tab/>7</text:a></text:p>
+     <text:p text:style-name="P101"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2747_701624176" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4.2 Analysis of Methodology<text:tab/>7</text:a></text:p>
+     <text:p text:style-name="P84"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2219_701624176" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">5 Conclusions<text:tab/>8</text:a></text:p>
+     <text:p text:style-name="P84"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc124_3322904026" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">References<text:tab/>9</text:a></text:p>
     </text:index-body>
    </text:table-of-content>
    <text:p text:style-name="P14"/>
    <text:p text:style-name="P14"/>
    <text:p text:style-name="P14"/>
-   <text:h text:style-name="P105" text:outline-level="1"/>
-   <text:h text:style-name="P78" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc116_3322904026"/>Introduction<text:bookmark-end text:name="__RefHeading___Toc116_3322904026"/></text:h>
-   <text:h text:style-name="P104" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc303_933729857"/><text:span text:style-name="T59">Ba</text:span><text:span text:style-name="T60">c</text:span><text:span text:style-name="T59">kgr</text:span><text:span text:style-name="T60">o</text:span><text:span text:style-name="T59">und</text:span><text:bookmark-end text:name="__RefHeading___Toc303_933729857"/></text:h>
-   <text:p text:style-name="P91">JavaScript,<text:span text:style-name="T62"> a standard client-side scripting language <text:s/>for web-based applications,</text:span> is one of three elements defining modern webdevelopment (the other two being HTML and CSS) <text:span text:style-name="T62">[book]</text:span>. JavaScript is a high-level interpreted programming language with very wide area of usage: from simple scripts that ensure webpage’s intearact<text:span text:style-name="T62">i</text:span>vity, to <text:span text:style-name="T62">webservers and database systems [lecture / wiki].</text:span></text:p>
-   <text:p text:style-name="P96"><text:span text:style-name="T45">JavaScript can access and manipulates elements of a HTML page (or objects of a HTML DOM (Document Object Model)), as well as react to webpage activities with help of event handling. Events can be cought with help of JavaScript’s “event listeners”. An event that has been cought triggers activities that are defined by JavaScript methods [book]. This work examines some of the HTML DOM events and how they are used in JavaScript.</text:span></text:p>
-   <text:h text:style-name="P87" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc305_933729857"/>Purpose<text:bookmark-end text:name="__RefHeading___Toc305_933729857"/></text:h>
-   <text:p text:style-name="P92"><text:span text:style-name="T54">T</text:span>he purpose of this laboratory is to <text:span text:style-name="T63">achieve interactivity of a webpage by usign JavaScript for event handling: <text:s/>it will be done through implementation of a webpage that facilitates an interactive booking of seats in an airplane. The goals of the laboratory are listed below:</text:span></text:p>
-   <text:list xml:id="list1985531679" text:style-name="L1">
+   <text:h text:style-name="P114" text:outline-level="1"/>
+   <text:h text:style-name="P88" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc116_3322904026"/>Introduction<text:bookmark-end text:name="__RefHeading___Toc116_3322904026"/></text:h>
+   <text:h text:style-name="P100" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc303_933729857"/><text:span text:style-name="T59">Ba</text:span><text:span text:style-name="T60">c</text:span><text:span text:style-name="T59">kgr</text:span><text:span text:style-name="T60">o</text:span><text:span text:style-name="T59">und</text:span><text:bookmark-end text:name="__RefHeading___Toc303_933729857"/></text:h>
+   <text:p text:style-name="P52">JavaScript,<text:span text:style-name="T62"> a standard client-side scripting language <text:s/>for web-based applications,</text:span> is one of three elements defining modern webdevelopment (the other two being HTML and CSS) <text:span text:style-name="T62">[book]</text:span>. JavaScript is a high-level interpreted programming language with very wide area of usage: from simple scripts that ensure webpage’s intearact<text:span text:style-name="T62">i</text:span>vity, to <text:span text:style-name="T62">webservers and database systems [lecture / wiki].</text:span></text:p>
+   <text:p text:style-name="P108">JavaScript can access and manipulates elements of a HTML page (or objects of a HTML DOM (Document Object Model)), as well as react to webpage activities with help of event handling. Events can be cought with help of JavaScript’s “event listeners”. An event that has been cought triggers activities that are defined by JavaScript methods [book]. This work examines some of the HTML DOM events and how they are used in JavaScript.</text:p>
+   <text:h text:style-name="P97" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc305_933729857"/>Purpose<text:bookmark-end text:name="__RefHeading___Toc305_933729857"/></text:h>
+   <text:p text:style-name="P53"><text:span text:style-name="T54">T</text:span>he purpose of this laboratory is to <text:span text:style-name="T63">achieve interactivity of a webpage by usign JavaScript for event handling: <text:s/>it will be done through implementation of a webpage that facilitates an interactive booking of seats in an airplane. The goals of the laboratory are listed below:</text:span></text:p>
+   <text:list xml:id="list4020312107" text:style-name="L1">
     <text:list-item>
-     <text:p text:style-name="P94">Webpage shall inform of seat statuses (free / taken; business class / economy class).</text:p>
+     <text:p text:style-name="P109">Webpage shall inform of seat statuses (free / taken; business class / economy class).</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P94">User’s choise of a seat shall be immediately visually confirmed by a webbpage.</text:p>
+     <text:p text:style-name="P109">User’s choise of a seat shall be immediately visually confirmed by a webbpage.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P97"><text:span text:style-name="T45">The program shall control that a seat / airpalne can not be overbooked, and store booking progress in way that syncronyzes booking information across several tabs in a webbrowser.</text:span></text:p>
+     <text:p text:style-name="P109">The program shall control that a seat / airpalne can not be overbooked, and store booking progress in way that syncronyzes booking information across several tabs in a webbrowser.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P97"><text:span text:style-name="T45">Webpage shall contain a form for obtaining user details.</text:span></text:p>
+     <text:p text:style-name="P109">Webpage shall contain a form for obtaining user details.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P97"><text:span text:style-name="T45">Upon a completed booking of a seat, a new dynamically-generated webpage with a printable boarding card shall open in a new window. Boarding card shall contain details relevant to current booking.</text:span></text:p>
+     <text:p text:style-name="P109">Upon a completed booking of a seat, a new dynamically-generated webpage with a printable boarding card shall open in a new window. Boarding card shall contain details relevant to current booking.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P97"><text:span text:style-name="T45">Upon completion of a booking, webbpage shall be updated with new seat statuses, and personal details form shall be cleared of preceeding booking’s information.</text:span></text:p>
+     <text:p text:style-name="P109">Upon completion of a booking, webbpage shall be updated with new seat statuses, and personal details form shall be cleared of preceeding booking’s information.</text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P98"><text:span text:style-name="T46"/></text:p>
-   <text:h text:style-name="P78" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc118_3322904026"/>Methodology<text:bookmark-end text:name="__RefHeading___Toc118_3322904026"/></text:h>
-   <text:p text:style-name="P99"><text:span text:style-name="T44">M</text:span><text:span text:style-name="T42">ethod used in the laborarory applies an experimental approach for achieving the stydy’s goal.</text:span></text:p>
-   <text:h text:style-name="P88" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc375_273753380"/>Equipment / Environment<text:bookmark-end text:name="__RefHeading___Toc375_273753380"/></text:h>
-   <text:p text:style-name="P93">Operating system: Windows 10 Pro.</text:p>
-   <text:p text:style-name="P93">Web browsers (including Developer Tool): Microsoft Edge, Mozilla, Chrome.</text:p>
-   <text:p text:style-name="P99"><text:span text:style-name="T42">Text editor: Atom 1.10.0.</text:span></text:p>
-   <text:h text:style-name="P88" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc377_273753380"/>Procedures<text:bookmark-end text:name="__RefHeading___Toc377_273753380"/></text:h>
-   <text:p text:style-name="P95">Bla</text:p>
-   <text:h text:style-name="P89" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc2046_701624176"/>Emerged Obstacles<text:bookmark-end text:name="__RefHeading___Toc2046_701624176"/></text:h>
+   <text:p text:style-name="P112"/>
+   <text:h text:style-name="P88" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc118_3322904026"/>Methodology<text:bookmark-end text:name="__RefHeading___Toc118_3322904026"/></text:h>
+   <text:p text:style-name="P59"><text:span text:style-name="T44">M</text:span><text:span text:style-name="T42">ethod used in the laborarory applies an experimental approach for achieving the stydy’s goal.</text:span></text:p>
+   <text:h text:style-name="P98" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc375_273753380"/>Equipment / Environment<text:bookmark-end text:name="__RefHeading___Toc375_273753380"/></text:h>
+   <text:p text:style-name="P54">Operating system: Windows 10 Pro.</text:p>
+   <text:p text:style-name="P54">Web browsers (including Developer Tool): Microsoft Edge, Mozilla, Chrome.</text:p>
+   <text:p text:style-name="P54">Text editor: Atom 1.10.0.</text:p>
+   <text:h text:style-name="P98" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc377_273753380"/>Procedures<text:bookmark-end text:name="__RefHeading___Toc377_273753380"/></text:h>
+   <text:p text:style-name="P56">Bla</text:p>
+   <text:h text:style-name="P99" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc2046_701624176"/>Emerged Obstacles<text:bookmark-end text:name="__RefHeading___Toc2046_701624176"/></text:h>
+   <text:p text:style-name="P111">Form’s input tag’s html attributes readonly and required do not work together. Had to add function In js that applies blur() upon focus on those elements.</text:p>
    <text:p text:style-name="P37">Did any obstacles emerge during the work, <text:span text:style-name="T55">and how was these handled</text:span>?</text:p>
    <text:p text:style-name="P37"/>
-   <text:h text:style-name="P89" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc2048_701624176"/>Summary of Procedures<text:bookmark-end text:name="__RefHeading___Toc2048_701624176"/></text:h>
+   <text:h text:style-name="P99" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc2048_701624176"/>Summary of Procedures<text:bookmark-end text:name="__RefHeading___Toc2048_701624176"/></text:h>
    <text:p text:style-name="P31">The <text:span text:style-name="T54">most basic condensation of needed steps to produce the current result. It may be appropriate to present these steps as a bullet or numbered list!</text:span></text:p>
-   <text:h text:style-name="P76" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc120_3322904026"/>Result<text:span text:style-name="T50">s</text:span><text:bookmark-end text:name="__RefHeading___Toc120_3322904026"/></text:h>
+   <text:h text:style-name="P86" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc120_3322904026"/>Result<text:span text:style-name="T50">s</text:span><text:bookmark-end text:name="__RefHeading___Toc120_3322904026"/></text:h>
    <text:p text:style-name="P33">The actual results produced by the steps described in methodology. This information should be condensed into tables / diagrams / illustrations!</text:p>
    <text:p text:style-name="P12"/>
-   <text:h text:style-name="P105" text:outline-level="1"/>
-   <text:h text:style-name="P76" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc232_3322904026"/>Dis<text:span text:style-name="T50">c</text:span>ussion<text:bookmark-end text:name="__RefHeading___Toc232_3322904026"/></text:h>
+   <text:h text:style-name="P114" text:outline-level="1"/>
+   <text:h text:style-name="P86" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc232_3322904026"/>Dis<text:span text:style-name="T50">c</text:span>ussion<text:bookmark-end text:name="__RefHeading___Toc232_3322904026"/></text:h>
    <text:p text:style-name="P34"><text:span text:style-name="T8">In </text:span><text:span text:style-name="T14">this chapter you’ll analyze and determine whether the goal of the work truly has been achieved, whether the chosen approach was appropriate, and what could have been done different. You need to show awareness of the work conducted and any conclusions needs to have </text:span><text:span text:style-name="T12">proper scientific foundations and cannot be based on personal opinions! </text:span></text:p>
    <text:p text:style-name="P43"/>
-   <text:h text:style-name="P86" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc2745_701624176"/>Goal Fulfillment<text:bookmark-end text:name="__RefHeading___Toc2745_701624176"/></text:h>
+   <text:h text:style-name="P96" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc2745_701624176"/>Goal Fulfillment<text:bookmark-end text:name="__RefHeading___Toc2745_701624176"/></text:h>
    <text:p text:style-name="P44">Does the result fulfill the work’s purpose to a degree of satisfaction? Is there enough substance to confidently determine that the goal has been reached, that the problem has been solved? Argue for these points and make sure each claim is well supported!</text:p>
    <text:p text:style-name="P45"/>
-   <text:h text:style-name="P86" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc2747_701624176"/>Analysis of Methodology<text:bookmark-end text:name="__RefHeading___Toc2747_701624176"/></text:h>
+   <text:h text:style-name="P96" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc2747_701624176"/>Analysis of Methodology<text:bookmark-end text:name="__RefHeading___Toc2747_701624176"/></text:h>
    <text:p text:style-name="P46">Was the chosen approach for resolving the problem appropriate? What could have been done to improve the approach? Would it be possible to avoid the emerged obstacles along the way? </text:p>
-   <text:h text:style-name="P77" text:outline-level="1" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading___Toc2219_701624176"/><text:span text:style-name="T55">5</text:span><text:tab/><text:span text:style-name="T55">Conclusions</text:span><text:bookmark-end text:name="__RefHeading___Toc2219_701624176"/></text:h>
+   <text:h text:style-name="P87" text:outline-level="1" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading___Toc2219_701624176"/><text:span text:style-name="T55">5</text:span><text:tab/><text:span text:style-name="T55">Conclusions</text:span><text:bookmark-end text:name="__RefHeading___Toc2219_701624176"/></text:h>
    <text:p text:style-name="P38"><text:span text:style-name="T8">In this chapter you’ll present your own </text:span><text:span text:style-name="T13">subjective </text:span><text:span text:style-name="T8">conclusions and reflections </text:span><text:span text:style-name="T13">regarding</text:span><text:span text:style-name="T8"> the assignment </text:span><text:span text:style-name="T13">as a whole and the way its been conducted. </text:span><text:span text:style-name="T14">What have you learned from conducting the assignment? What have you learned from writing this report? </text:span><text:span text:style-name="T15">During the review, did either providing or receiving feedback contribute in any way to further your understanding?</text:span></text:p>
-   <text:h text:style-name="P79" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc124_3322904026"/>Referen<text:span text:style-name="T50">ces</text:span><text:bookmark-end text:name="__RefHeading___Toc124_3322904026"/></text:h>
-   <text:p text:style-name="P58"/>
+   <text:h text:style-name="P89" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc124_3322904026"/>Referen<text:span text:style-name="T50">ces</text:span><text:bookmark-end text:name="__RefHeading___Toc124_3322904026"/></text:h>
+   <text:p text:style-name="P66"/>
    <table:table table:name="Table1" table:style-name="Table1">
     <table:table-column table:style-name="Table1.A"/>
     <table:table-column table:style-name="Table1.B"/>
     <table:table-row>
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
-      <text:p text:style-name="P55">[1]</text:p>
+      <text:p text:style-name="P63">[1]</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
-      <text:p text:style-name="P54">Karlstads Universitet, “Att skriva en vetenskaplig uppsats eller rapport)”, 2017. [Online]</text:p>
-      <text:p text:style-name="P56"><text:span text:style-name="T2">Tillgänglig: </text:span><text:a xlink:type="simple" xlink:href="https://www.kau.se/bibliotek/skriva-referera/skriva/skriva-akademiskt/att-skriva-en-vetenskaplig-uppsats-eller-rapport" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T4">https://www.kau.se/bibliotek/skriva-referera/skriva/skriva-akademiskt/att-skriva-en-vetenskaplig-uppsats-eller-rapport</text:span></text:a></text:p>
-      <text:p text:style-name="P54">[Åtkomst: 5 September 2017]</text:p>
+      <text:p text:style-name="P62">Karlstads Universitet, “Att skriva en vetenskaplig uppsats eller rapport)”, 2017. [Online]</text:p>
+      <text:p text:style-name="P64"><text:span text:style-name="T2">Tillgänglig: </text:span><text:a xlink:type="simple" xlink:href="https://www.kau.se/bibliotek/skriva-referera/skriva/skriva-akademiskt/att-skriva-en-vetenskaplig-uppsats-eller-rapport" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T4">https://www.kau.se/bibliotek/skriva-referera/skriva/skriva-akademiskt/att-skriva-en-vetenskaplig-uppsats-eller-rapport</text:span></text:a></text:p>
+      <text:p text:style-name="P62">[Åtkomst: 5 September 2017]</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
-      <text:p text:style-name="P55">[<text:span text:style-name="T41">2</text:span>]</text:p>
+      <text:p text:style-name="P63">[<text:span text:style-name="T41">2</text:span>]</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
-      <text:p text:style-name="P54"><text:span text:style-name="T41">Skolverket</text:span>, “<text:span text:style-name="T41">Labbrapport</text:span>”, 2017. [<text:span text:style-name="T41">PDF</text:span>]</text:p>
-      <text:p text:style-name="P56"><text:span text:style-name="T2">Tillgänglig: </text:span><text:a xlink:type="simple" xlink:href="https://www.skolverket.se/polopoly_fs/1.234595!/2labbrapport.pdf" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T5">https://www.skolverket.se/polopoly_fs/1.234595!/2labbrapport.pdf</text:span></text:a></text:p>
-      <text:p text:style-name="P54">[Åtkomst: <text:span text:style-name="T41">1</text:span> <text:span text:style-name="T41">November</text:span> 2017]</text:p>
+      <text:p text:style-name="P62"><text:span text:style-name="T41">Skolverket</text:span>, “<text:span text:style-name="T41">Labbrapport</text:span>”, 2017. [<text:span text:style-name="T41">PDF</text:span>]</text:p>
+      <text:p text:style-name="P64"><text:span text:style-name="T2">Tillgänglig: </text:span><text:a xlink:type="simple" xlink:href="https://www.skolverket.se/polopoly_fs/1.234595!/2labbrapport.pdf" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T5">https://www.skolverket.se/polopoly_fs/1.234595!/2labbrapport.pdf</text:span></text:a></text:p>
+      <text:p text:style-name="P62">[Åtkomst: <text:span text:style-name="T41">1</text:span> <text:span text:style-name="T41">November</text:span> 2017]</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>

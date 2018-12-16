@@ -50,15 +50,29 @@ function showLargeImg(imgNr, imgName) {
 }
 
 /*BOOKING.HTML methods*/
-var seats_rows = new Array(3).fill("free");
-var seats = new Array(6).fill(seats_rows);
+var seats; //array of seats
+
+var oldSeat = null; //used by chooseSeat() method
 
 //draws table with airplane seats, assigns current seat states("free", "looking", "busy") and class("business" or "economy");
 function loadSeats() {
+
+  if(!sessionStorage.getItem('bookedSeats')) {
+    var seatsRows = new Array(3).fill("free"); //two-dimentional array with seats
+    seats = new Array(6).fill(seatsRows);
+    sessionStorage.setItem("seatsUpd", JSON.stringify(seats));
+  }
+  seats = JSON.parse(sessionStorage.getItem("seatsUpd"));
+
   var abc = ["A", "B", "C"]; //seat letters
   var rows = 6; //nr of rows
   var cols = 3; //nr of columns
   var business = 2; //nr of business class rows
+
+  var table = document.getElementById("myTable");
+  var caption = document.createElement("caption");
+  caption.appendChild(document.createTextNode("First " + business + " rows are Business class"));
+  table.appendChild(caption);
 
   var tbody = document.getElementById("tablebody");
 
@@ -69,31 +83,96 @@ function loadSeats() {
       var cell = document.createElement("td");
       cell.appendChild(document.createTextNode(text));
       var state = seats[i][j]; //get seat state from seats array
-      cell.setAttribute("id", state);
+      cell.setAttribute("id", j);
+      cell.setAttribute("class", state);
       //add info about class in a "title" attribute
       if(i < business) {
-        cell.setAttribute("title", "Business Class");
+        cell.setAttribute("title", "Business");
       }
       else {
-        cell.setAttribute("title", "Economy Class");
+        cell.setAttribute("title", "Economy");
       }
+      row.setAttribute("id", i);
       row.appendChild(cell);
     }
     tbody.appendChild(row);
   }
-
   document.getElementById("tablebody").addEventListener("click", chooseSeat, false);
 }
 
-function chooseSeat() {
+//Handles choosing of seat. Controls that a chosen seat is free; allows only one seat to be chosen at a time; updates Class and Seat information for the booking.
+function chooseSeat(e) {
+  if(e.target.tagName.toLowerCase() == "td") {
+
+    if(e.target.getAttribute("class") == "free") {
+      //if this is not the first time seat is chosen
+      if(oldSeat != null) {
+        oldSeat.setAttribute("class", "free");
+      }
+      e.target.setAttribute("class", "looking");
+      oldSeat = e.target;
+
+      //update booking form
+      var seatClass = e.target.getAttribute("title");
+      var seatNr = e.target.innerHTML;
+      document.getElementById("class").setAttribute("value", seatClass);
+      document.getElementById("seatnr").setAttribute("value", seatNr);
+      }
+      else if(e.target.getAttribute("class") == "busy") {
+      alert("This seat is already booked");
+    }
+  }
 }
 
-function start() {
-  loadSeats();
+//Makes a form field read only (necessary because html "readonly" attribute does not work with "required" attribute)
+function readOnly(element_id) {
+  document.getElementById(element_id).blur();
+}
+
+//Stores form entries in sessionStorage
+function storeFormEntry(id) {
+  var item = document.getElementById(id);
+  sessionStorage.setItem(id, item.value);
+}
+
+//Saves information about a newly-booked sear to sessionStorage; removes input data stored in sessionStorage
+function submitForm() {
+  var columnIdx = oldSeat.getAttribute("id");
+  var rowIdx = oldSeat.parentNode.getAttribute("id");
+
+  seats[rowIdx][columnIdx] = "busy";
+
+  if(!sessionStorage.getItem("bookedSeats")) {
+    sessionStorage.setItem('bookedSeats', true);
+  }
+  sessionStorage.setItem("seatsUpd", JSON.stringify(seats));
+
+  sessionStorage.removeItem("name");
+  sessionStorage.removeItem("lastname");
+  sessionStorage.removeItem("persnr");
+
+  printPass();
+}
+
+function printPass() {
+
+}
+
+//Cancells last viewed seat if form is reset; removes input data stored in sessionStorage
+function resetForm() {
+  if(oldSeat != null) {
+    oldSeat.setAttribute("class", "free");
+  }
+  document.getElementById("class").setAttribute("value", "");
+  document.getElementById("seatnr").setAttribute("value", "");
+
+  sessionStorage.removeItem("name");
+  sessionStorage.removeItem("lastname");
+  sessionStorage.removeItem("persnr");
 }
 
 /*COMMON START METHOD*/
-//Registers event listeners / calls methods based on curremt location
+//Registers event listeners / calls methods based on current location
 function start() {
 var myLocation = detectLocation();
 
@@ -116,6 +195,29 @@ var myLocation = detectLocation();
   }
   else if (myLocation == 'booking.html') {
     loadSeats();
+
+    //event listeners for making some fields readonly
+    var classBtn = document.forms["myForm"]["class"];
+    var seatBtn = document.forms["myForm"]["seatnr"];
+    classBtn.addEventListener("focus", function() {readOnly("class");}, false);
+    seatBtn.addEventListener("focus", function() {readOnly("seatnr");}, false);
+
+    //submit and reset event listeners
+    var form = document.getElementById("myForm");
+    form.addEventListener("submit", submitForm, false);
+    form.addEventListener("reset", resetForm, false);
+
+    //Event listeners to autosave entered data
+    var nameField = document.forms["myForm"]["name"];
+    nameField.addEventListener("change", function() {storeFormEntry("name");}, false);
+    var lastNameField = document.forms["myForm"]["lastname"];
+    lastNameField.addEventListener("change", function() {storeFormEntry("lastname");}, false);
+    var persNrField = document.forms["myForm"]["persnr"];
+    persNrField.addEventListener("change", function() {storeFormEntry("persnr");}, false);
+
+    nameField.value = sessionStorage.getItem("name");
+    lastNameField.value = sessionStorage.getItem("lastname");
+    persNrField.value = sessionStorage.getItem("persnr");
   }
 }
 

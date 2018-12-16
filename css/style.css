@@ -132,8 +132,9 @@ olgo1700@student.miun.se*/
 
   /*BOOKING PAGE LAYOUT*/
   .bookpage {
+    color: rgb(25, 87, 160);
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: auto 220px;
     grid-template-areas:
       "info seats";
     width: 80%;
@@ -149,9 +150,33 @@ olgo1700@student.miun.se*/
 
   /*BOOKING FORM*/
   label {
-    width:150px;
+    width: 120px;
     display: inline-block;
-}
+    font-size: 10pt;
+  }
+  input {
+    border: none;
+    color: rgb(25, 87, 160);
+  }
+  #submit, #reset {
+    background-color: blue;
+    border: none;
+    padding: 15px;
+    width: 80px;
+    margin-top: 10px;
+    background-color: white;
+    color: rgb(25, 87, 160);
+    box-shadow: 1px 1px #888888;
+  }
+  #reset:hover, #submit:hover {
+      font-weight: bold;
+  }
+  #reset:focus, #submit:focus {
+      outline: none;
+  }
+  #reset {
+    margin-left: 10px;
+  }
 
   /*SEATS TABLE*/
   .seats {
@@ -159,16 +184,27 @@ olgo1700@student.miun.se*/
     border-spacing: 5px 10px;
     width: 100%;
   }
+  .seats caption {
+    font-size: 10pt;
+    font-style: italic;
+  }
   .seats td {
     text-align: center;
     vertical-align: middle;
     height: 40px;
+    width: 60px;
   }
   .seats td:hover {
       box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
-  tr #free {
+  .free {
     background-color: rgba(40, 220, 140, 0.7);
+  }
+  .looking {
+    background-color: rgba(33, 108, 200, 0.7);
+  }
+  .busy {
+    background-color: rgba(255, 11, 30, 0.7);
   }
 
   /*CONTACTS TABLE*/
@@ -250,6 +286,13 @@ olgo1700@student.miun.se*/
       "img1small img2small img3small img4small"
       "img5small img6small img7small img8small";
   }
+  .bookpage {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "seats"
+      "info";
+    width: 90%;
+  }
 }
 
 /*MEDIA SCREEN-480px to 1024px*/
@@ -272,6 +315,9 @@ olgo1700@student.miun.se*/
   }
   .colorbox {
     background-color: rgba(40, 220, 140, 0.7);
+  }
+  .bookpage {
+    width: 60%;
   }
 }
 
