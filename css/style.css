@@ -33,10 +33,12 @@ olgo1700@student.miun.se*/
   }
   h1 {
     text-transform: uppercase;
+    color: rgb(255, 11, 30);
     color: rgba(255, 11, 30, 0.7);
     margin: 0;
   }
   .blue {
+    color: rgb(33, 108, 200);
     color: rgba(33, 108, 200, 0.7);
   }
   h5 {
@@ -151,7 +153,6 @@ olgo1700@student.miun.se*/
     color: rgb(25, 87, 160);
   }
   #submit, #reset {
-    background-color: blue;
     border: none;
     padding: 15px;
     width: 80px;
